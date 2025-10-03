@@ -1,5 +1,5 @@
 import { v2 as cloudinary } from "cloudinary";
-import prisma from "@/lib/prisma";
+import { prisma } from "@/lib/prisma";
 import formidable from "formidable";
 import fs from "fs";
 
