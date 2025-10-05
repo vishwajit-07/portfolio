@@ -12,8 +12,8 @@ export default function Home() {
             duration: 1500,
             icon: '👋', // Using a wave emoji for a friendly touch
             style: {
-                backgroundColor: '#1f2937', // Dark background (similar to the black navbar)
-                color: '#ffffff', // White text
+                backgroundColor: '#ffffff', // Dark background (similar to the black navbar)
+                color: '#FFA726', // White text
                 border: '2px solid #fb923c', // Orange border (orange-400)
                 borderRadius: '12px',
                 padding: '16px 24px',
