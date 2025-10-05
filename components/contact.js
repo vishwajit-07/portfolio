@@ -7,7 +7,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-8 mt-10 min-h-screen transition-colors duration-300">
       <div className="container mx-auto px-4 mt-16 max-w-2xl">
-        <h2 className="text-4xl font-bold text-center mb-6 text-gray-800">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-6 text-gray-800">
           Get in <span className="text-orange-500">Touch</span>
         </h2>
 

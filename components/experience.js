@@ -24,11 +24,11 @@ const Experience = () => {
     return (
         <section id="experience" className="py-8 mt-10 min-h-screen transition-colors duration-300">
             <div className="container mx-auto px-4 mt-16 max-w-5xl">
-                <h2 className="text-4xl font-bold text-center mb-8 text-gray-800 ">
+                <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 text-gray-800 ">
                     My Work <span className="text-orange-500">Experience</span>
                 </h2>
 
-                <div className="flex flex-col bg-orange-50 pt-10 pr-8">
+                <div className="flex flex-col bg-orange-50 pt-6 sm:pt-10 px-4 sm:px-8 rounded-lg">
                     {experiences.map((exp, index) => (
                         <TimelineItem
                             key={index}

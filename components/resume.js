@@ -10,7 +10,7 @@ export default async function ResumePage() {
       className="py-8 mt-10 transition-colors duration-300"
     >
       <div className="container mx-auto mt-16 px-4 max-w-5xl">
-        <h2 className="text-4xl font-bold text-center mb-8 text-gray-800 ">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 text-gray-800 ">
           My <span className="text-orange-500">Resume Preview</span>
         </h2>
         {profile?.resumeUrl ? (

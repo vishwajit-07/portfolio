@@ -73,7 +73,7 @@ export default function Projects() {
   return (
     <section id="projects" className="py-8 mt-10  transition-colors duration-300">
       <div className="container mx-auto px-4 mt-16 max-w-6xl">
-        <h2 className="text-4xl font-bold text-center mb-8 text-gray-800 ">
+        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-8 text-gray-800 ">
           My <span className="text-orange-500">Projects</span>
         </h2>
 
